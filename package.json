@@ -1,6 +1,6 @@
 {
-    "name": "@contasystemer/angularjs-custom-element",
-    "version": "1.0.2",
+    "name": "@benbourget/angularjs-custom-element",
+    "version": "1.0.3",
     "description": "AngularJS custom element module provides functionality to wrap directive/component with custom element.",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/contasystemer/angularjs-custom-element.git"
+        "url": "git+https://github.com/benbourget/angularjs-custom-element.git"
     },
     "keywords": [
         "Conta",
@@ -20,11 +20,11 @@
     "author": "Conta AS development team",
     "license": "BSD-3-Clause",
     "bugs": {
-        "url": "https://github.com/contasystemer/angularjs-custom-element/issues"
+        "url": "https://github.com/benbourget/angularjs-custom-element/issues"
     },
-    "homepage": "https://github.com/contasystemer/angularjs-custom-element#readme",
+    "homepage": "https://github.com/benbourget/angularjs-custom-element#readme",
     "dependencies": {
-        "@contasystemer/angularjs-assert": "^1.0.3",
+        "angularjs-assert": "git+https://github.com/benbourget/angularjs-assert.git",
         "lodash": "^4.17.20"
     },
     "devDependencies": {

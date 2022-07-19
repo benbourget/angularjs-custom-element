@@ -662,7 +662,7 @@
 
             // REGISTER CUSTOM ELEMENT
 
-            $window.customElements.define(componentName + '-element', customElements[componentName]);
+            if(!$window.customElements.get(componentName + '-element')) {$window.customElements.define(componentName + '-element', customElements[componentName])};
         }
 
         // CREATE HELPERS
